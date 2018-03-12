@@ -3,9 +3,8 @@
 def prime?(integer)
   array = (2..integer)
   if integer >1
-  array.any? do |number|
+  array.detect do |number|
      integer % number == 0
-     false
 end
 else
   false
