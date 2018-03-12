@@ -3,7 +3,7 @@
 def prime?(integer)
   array = (2..integer)
   if integer >1
-  array.detect do |number|
+  array.include? do |number|
      integer % number == 0
 end
 else
