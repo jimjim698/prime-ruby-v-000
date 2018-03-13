@@ -1,9 +1,9 @@
 # Add  code here!
 
 def prime?(integer)
-  array = (2..integer)
+  array = (2..integer-1)
   if integer >1
-  array.each do |number|
+  array.any? do |number|
   integer % number == 0
 end
 else
