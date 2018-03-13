@@ -14,6 +14,6 @@
 #array = (-1..Math.sqrt(integer)).to_a
 
 def prime?(num)
-        (2..num.each { |i| return false if num % i == 0}
+        (2..num).each { |i| return false if num % i == 0}
         true
     end
