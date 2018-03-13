@@ -2,7 +2,7 @@
 
 def prime?(integer)
   array = (2..integer)
-  if integer >1 &&
+  if integer >1
   array.any? do |number|
      integer % number == 0
 end
