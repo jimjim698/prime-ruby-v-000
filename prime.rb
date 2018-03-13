@@ -12,5 +12,3 @@ else
 end
 end
 #array = (-1..Math.sqrt(integer)).to_a
-
-
