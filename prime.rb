@@ -5,7 +5,7 @@ def prime?(integer)
 array = (2..integer).to_a
   array.each do |number|
 if  (integer % number) == 0
-  false
+  return false
     end
   end
   true
