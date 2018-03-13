@@ -5,8 +5,9 @@ def prime?(integer)
   if integer >1
   array.each do |number|
      integer % number == 0 
+      true
 end
-true
+
 else
   false
 end
