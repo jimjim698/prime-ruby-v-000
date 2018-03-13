@@ -4,7 +4,7 @@ def prime?(integer)
   array = (2..integer)
   if integer >1
   array.each do |number|
-  integer % number != 0
+  integer % number == 0
 end
 else
   false
