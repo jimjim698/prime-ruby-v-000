@@ -2,8 +2,8 @@
 
 def prime?(integer)
   array = (2..integer)
-  if integer >1
-  array.each do |number|
+  if integer >1 &&
+  array.any? do |number|
      integer % number == 0
 end
 else
